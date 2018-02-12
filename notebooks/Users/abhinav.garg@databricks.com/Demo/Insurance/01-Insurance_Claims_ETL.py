@@ -130,4 +130,8 @@ claimsTransformedDf.write.saveAsTable("INSURANCE_CLAIMS_TBL", format = "parquet"
 
 # COMMAND ----------
 
+# MAGIC %sql DESCRIBE EXTENDED INSURANCE_CLAIMS_TBL
+
+# COMMAND ----------
+
 # MAGIC %md ## <div style="float:right"><a href="$./02-Insurance_Claims_AdAnalysis">Ad-hoc Data Analysis</a> <b style="font-size: 160%; color: #1CA0C2;">&#8680;</b></div>
