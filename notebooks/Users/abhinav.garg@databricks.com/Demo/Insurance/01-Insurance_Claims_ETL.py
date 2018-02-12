@@ -64,6 +64,10 @@ display(claimsDf)
 
 # COMMAND ----------
 
+claimsDf.cache()
+
+# COMMAND ----------
+
 from pyspark.sql import functions as F
 
 distinctMap = {}
